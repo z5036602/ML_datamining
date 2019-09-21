@@ -1,0 +1,22 @@
+pip list  #checked pip installed packages 
+conda --help
+conda create --name my_app flask sqlalchemy    #create virtual environment(initialize with  package)
+
+
+conda activate my_app    #activate the virtual environment
+
+conda deactivate       #activate the virtual environment
+
+exit()    #exit the conda environment
+
+conda env list #check the virtual environments we have 
+
+conda create --name my_app27 python=2.7 flask sqlalchemy      #create virtual environment(initialize with  package) and python patch version, so you can have different versions at different environments
+
+conda remove --name my_app --all  #remove a virtual environment
+
+
+Jupiter notebook commands
+
+keyboard shot cut opt+enter/control+enter/shit+enter
+

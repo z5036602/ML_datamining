@@ -7,6 +7,8 @@ Created on Sat Sep 28 09:46:11 2019
 """
 import numpy as np
 import csv 
+
+  
 def data_extraction (file_name):
     
     with open(file_name,"r" ) as data_sheet:
